@@ -1,0 +1,16 @@
+{
+  "name": "news-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0",
+    "node-fetch": "^2.7.0",
+    "axios": "^1.7.7"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

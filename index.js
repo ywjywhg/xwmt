@@ -41,10 +41,10 @@ async function ocrAndTranslateImage(imageUrl) {
 
 const RSS = [
   'https://feeds.bbci.co.uk/news/world/rss.xml',
-  'https://www.reuters.com/arc/outboundfeeds/newsroom/all/?outputType=xml',
-  'https://afs.google.com/dp-apnews/index.rss',
+  'https://feeds.feedburner.com/techcrunch',
+  'https://rss.dw.com/rdf/rss-en-top',
   'https://www.theguardian.com/world/rss',
-  'https://rss.cnn.com/rss/edition_world.rss'
+  'https://www.aljazeera.com/xml/rss/all.xml'
 ];
 
 async function translate(text) {

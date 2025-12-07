@@ -5,10 +5,10 @@ const axios = require('axios');
 const parser = new Parser();
 const RSS_FEEDS = [
   { name: 'BBC World', url: 'https://feeds.bbci.co.uk/news/world/rss.xml' },
-  { name: 'Reuters World', url: 'https://www.reuters.com/arc/outboundfeeds/newsroom/all/?outputType=xml' },
-  { name: 'AP News', url: 'https://apnews.com/index.rss' },
+  { name: 'Reuters World', url: 'https://feeds.feedburner.com/techcrunch' },
+  { name: 'AP News', url: 'https://rss.dw.com/rdf/rss-en-top' },
   { name: 'The Guardian World', url: 'https://www.theguardian.com/world/rss' },
-  { name: 'CNN World', url: 'https://rss.cnn.com/rss/edition_world.rss' }
+  { name: 'CNN World', url: 'https://www.aljazeera.com/xml/rss/all.xml' }
 ];
 
 const BOT_TOKEN = '8284424286:AAGpxpoqJHx6qJ6017XVa5q-wlE6c_i0aBs'; // 替换为你的 Bot Token
@@ -90,4 +90,5 @@ async function fetchNews() {
 }
 
 // 运行
+
 fetchNews().catch(console.error);

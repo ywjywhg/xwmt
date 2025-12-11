@@ -41,7 +41,7 @@ async function ocrAndTranslateImage(imageUrl) {
 
 const RSS = [
   'https://feeds.bbci.co.uk/news/world/rss.xml',
-  'https://feeds.feedburner.com/techcrunch',
+  'https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml',
   'https://rss.dw.com/rdf/rss-en-top',
   'https://www.theguardian.com/world/rss',
   'https://www.aljazeera.com/xml/rss/all.xml'

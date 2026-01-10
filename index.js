@@ -68,7 +68,7 @@ async function translate(text) {
   for (const url of RSS) {
     const feed = await parser.parseURL(url);
     for (const item of feed.items.slice(0, 6)) {
-      if (count >= 10) break;
+      if (count >= 20) break;
       if (!item.link) continue;
 
       const en = (item.title + '. ' + (item.contentSnippet || '')).slice(0, 400);
